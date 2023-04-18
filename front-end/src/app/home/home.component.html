@@ -1,0 +1,47 @@
+﻿<div class="card mt-4">
+    <h4 class="card-header">Home</h4>
+    <div class="card-body">
+        <p>Account Statement</p>
+        <p>Your username is: <strong>{{user.username}}</strong>.</p>
+        <p>Your role is: <strong>{{user.role}}</strong>.</p>        
+        <br>
+        <div *ngIf="role == 'ADMIN'">
+
+        <br>
+        <br>
+
+        Account Number 
+        <!-- <input #accountId type="number" id="accountId">
+        <br> -->
+        
+        <form [formGroup]="myForm">
+
+        Account Id <input type="number" formControlName="accountId" >
+            <br>
+            Start Date: <input type="date" id="fromDate" name="fromDate" formControlName="fromDate" (input)="fromDateFormat($event)" >
+        <br>
+            End Date:<input type="date" id="toDate" name="toDate" formControlName="toDate" (input)="toDateFormat($event)" >
+        <br>
+           Start Amount <input type="number" formControlName="startAmount" >
+        <br>
+           End Amount <input type="number" formControlName="endAmount" >
+        <br>
+            <button type="submit" (click)="submitForm()">Submit</button>
+        &nbsp;&nbsp;
+            <button type="button" (click)="resetForm()">Reset</button>
+        &nbsp;&nbsp;
+            <button type="button" (click)="lastThreeMonthForm()">Last 3 Month Record</button>    
+            </form>
+
+            </div>
+            <br><br>
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+        
+        <div *ngIf="rows">
+        <div>
+
+            <ngx-datatable [rows]="rows" [columns]="columns" class="material"> </ngx-datatable>
+        </div>
+    </div>     
+    </div>
+</div>

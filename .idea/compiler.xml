@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-statement-ws" target="11" />
+      <module name="account-ws" target="11" />
+      <module name="api-gateway-ws" target="11" />
+      <module name="common-module" target="11" />
+      <module name="config-server" target="11" />
+      <module name="eureka-server" target="11" />
+      <module name="user-account-project" target="11" />
+      <module name="user-ws" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-statement-ws" options="-parameters" />
+      <module name="account-ws" options="-parameters" />
+      <module name="api-gateway-ws" options="-parameters" />
+      <module name="common-module" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="user-ws" options="-parameters" />
+    </option>
+  </component>
+</project>

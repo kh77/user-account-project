@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19f56a2a-057d-4d14-913c-d74e517ce42d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="nexus" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2OF0ddJuZpcy6XbdPnjt8ZzOnU4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/code/test/user-account-project/account-statement-ws/src/main/java/com/sm",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "bb953e8e914ac807b70b57b98ae3b3bd",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\test\user-account-project\account-statement-ws\src\main\java\com\sm" />
+      <recent name="C:\code\test\user-account-project\account-ws\src\main\java\com\sm" />
+      <recent name="C:\code\test\user-account-project\api-gateway-ws\src\main\java\com\sm\security" />
+      <recent name="C:\code\test\user-account-project\user-ws\src\main\java\com\sm\controller\response" />
+      <recent name="C:\code\test\user-account-project\user-ws\src\main\java\com\sm\exception" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sm.service" />
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sm.controller.response" />
+      <recent name="com.sm.account" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountControllerTest.testFindAccountWithEmptyData">
+    <configuration name="AccountControllerTest.testFindAccountWithEmptyData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sm.controller.AccountControllerTest" />
+      <option name="METHOD_NAME" value="testFindAccountWithEmptyData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountStatementServiceTest.testFindStatementByUserIdWithSameAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account-statement-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sm.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sm.service.AccountStatementServiceTest" />
+      <option name="METHOD_NAME" value="testFindStatementByUserIdWithSameAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountStatementWsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="account-statement-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.accountstatement.AccountStatementWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountStatementWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="account-statement-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.AccountStatementWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountWsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="account-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.account.AccountWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="account-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.AccountWsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayWsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.gateway.ApiGatewayWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.ApiGatewayWsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.config.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.ConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserWsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.user.UserWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sm.UserWsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountStatementServiceTest.testFindStatementByUserIdWithSameAccount" />
+      <item itemvalue="JUnit.AccountControllerTest.testFindAccountWithEmptyData" />
+      <item itemvalue="Spring Boot.AccountStatementWsApplication (1)" />
+      <item itemvalue="Spring Boot.AccountWsApplication (1)" />
+      <item itemvalue="Spring Boot.ApiGatewayWsApplication (1)" />
+      <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
+      <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
+      <item itemvalue="Spring Boot.UserWsApplication (1)" />
+      <item itemvalue="Spring Boot.AccountStatementWsApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.AccountWsApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayWsApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.UserWsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AccountWsApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayWsApplication" />
+        <item itemvalue="Spring Boot.UserWsApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="JUnit.AccountControllerTest.testFindAccountWithEmptyData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19f56a2a-057d-4d14-913c-d74e517ce42d" name="Changes" comment="" />
+      <created>1681141115332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681141115332</updated>
+      <workItem from="1681141120770" duration="3007000" />
+      <workItem from="1681149549800" duration="58991000" />
+      <workItem from="1681426017214" duration="8587000" />
+      <workItem from="1681465093053" duration="6307000" />
+      <workItem from="1681471851408" duration="3114000" />
+      <workItem from="1681475029712" duration="186000" />
+      <workItem from="1681662417245" duration="309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-ws/src/test/java/com/sm/account/service/AccountServiceTest.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-statement-ws/src/main/java/com/sm/accountstatement/service/AccountStatementService.java</url>
+          <line>62</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-ws/src/main/java/com/sm/account/controller/AccountController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-ws/src/test/java/com/sm/account/controller/AccountControllerTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-ws/src/main/java/com/sm/user/exception/GlobalExceptionHandler.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-ws/src/main/java/com/sm/user/UserWsApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-ws/src/main/java/com/sm/user/controller/AuthController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-ws/src/main/java/com/sm/user/security/filter/JwtTokenFilter.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway-ws/src/main/java/com/sm/gateway/security/jwt/AuthorizationHeaderFilter.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway-ws/src/main/java/com/sm/gateway/security/jwt/AuthorizationHeaderFilter.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-ws/src/main/java/com/sm/user/controller/AuthController.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/user_account_project$AccountServiceTest.ic" NAME="AccountServiceTest Coverage Results" MODIFIED="1681200294196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sm.service.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>

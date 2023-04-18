@@ -1,0 +1,81 @@
+﻿import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+
+import { environment } from '@environments/environment';
+import { User } from '@app/_models';
+import jwtDecode from 'jwt-decode';
+
+@Injectable({ providedIn: 'root' })
+export class AuthenticationService {
+    private userSubject: BehaviorSubject<User | null>;
+    public user: Observable<User | null>;
+
+    constructor(
+        private router: Router,
+        private http: HttpClient
+    ) {
+        this.userSubject = new BehaviorSubject(JSON.parse(localStorage.getItem('user')!));
+        this.user = this.userSubject.asObservable();
+    }
+
+    public get userValue() {
+        return this.userSubject.value;
+    }
+
+    login(username: string, password: string) {
+        return this.http.post<any>(`${environment.apiUrl}/user-ws/users/login`, { username, password })
+            .pipe(map(user => {
+                // store user details and jwt token in local storage to keep user logged in between page refreshes
+                localStorage.setItem('user', JSON.stringify(user));
+                this.userSubject.next(user);
+                this.regenerateToken(user.token);
+                return user;
+            }));
+
+    }
+    
+    
+
+    logout() {
+        // remove user from local storage to log user out
+        this.http.post(`${environment.apiUrl}/user-ws/users/logout`, {}).subscribe();    
+        localStorage.removeItem('user');
+        this.userSubject.next(null);
+        this.router.navigate(['/login']);
+    }
+
+    regenerateToken(token: string) {
+          console.log("token", token);
+          const decodedToken = jwtDecode( token) as { exp: number };
+          const expirationTime = new Date(decodedToken.exp * 1000);
+          const oneMinuteBeforeExpiration = new Date(
+            expirationTime.getTime() - 1 * 60 * 1000
+          );
+          setTimeout(() => {
+            console.log('nasru');
+            this.refreshToken();
+            console.log('kazim');
+          }, oneMinuteBeforeExpiration.getTime() - Date.now());
+        
+      }
+      
+    refreshToken() {
+        this.http.get<any>(`${environment.apiUrl}/user-ws/users/token`)
+          .subscribe({
+            next: (user)=> {
+                localStorage.setItem('user', JSON.stringify(user));
+                this.userSubject.next(user);
+                console.log("new token", user.token);
+
+                this.regenerateToken(user.token);
+            },
+            error: (e)=> console.error(e),
+        complete: ()=> console.log('complete')
+          });
+            
+      
+    }
+}
