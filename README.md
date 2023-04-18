@@ -13,7 +13,7 @@
 
 ### Configuration for database:
 
-- Go to this 2 below Project & File : 
+- Go to this file of the below Project & File : 
   - config-server\src\main\resources\config\application.properties
 - Change the path where you put accountsdb.accdb file in your system
 - Replace C:/code/test/JavaTest with your drive path & make sure to use slash. Below is the example
@@ -25,7 +25,7 @@
   - set project_path=C:/code/test/user-account-project/
   - Run the bat file 
 
-- If you do not want to run project manually, go to specific folder in the below sequence
+- If you want to run project manually, go to specific folder in the below sequence and build with the mentioned commands
 
   - eureka-server
     - mvn clean package
