@@ -16,14 +16,15 @@
     <name>account-statement-ws</name>
     <packaging>jar</packaging>
 
-   <properties>
+    <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.5</spring-cloud.version>
         <spring-boot.version>2.7.3</spring-boot.version>
-       <sonar.host.url>http://localhost:9000</sonar.host.url>
-       <sonar.login></sonar.login>
-       <sonar.projectKey>account-statement-ws</sonar.projectKey> <!-- Replace with the project key created in SonarQube -->
-       <sonar.projectName>account-statement-ws</sonar.projectName>
+        <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <sonar.login></sonar.login>
+        <sonar.projectKey>account-statement-ws
+        </sonar.projectKey> <!-- Replace with the project key created in SonarQube -->
+        <sonar.projectName>account-statement-ws</sonar.projectName>
     </properties>
 
     <dependencies>
@@ -62,11 +63,11 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.6.10.Final</version>
         </dependency>
-     <!--   <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bootstrap</artifactId>
-            <version>${spring-boot.version}</version>
-        </dependency>-->
+        <!--   <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-bootstrap</artifactId>
+               <version>${spring-boot.version}</version>
+           </dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
@@ -77,12 +78,12 @@
             <artifactId>common-module</artifactId>
             <version>0.0.2-SNAPSHOT</version>
         </dependency>
-		 <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <version>${spring-boot.version}</version>
         </dependency>
-		     <dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
@@ -98,20 +99,24 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-sleuth</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-sleuth-zipkin</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+        </dependency>
 
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
     </dependencies>
 
-<dependencyManagement>
+    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -144,12 +149,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
-                       <excludes>
-                           <exclude>com/sm/accountstatement/AccountStatementWsApplication.class</exclude>
-                           <exclude>com/sm/accountstatement/exception/GlobalExceptionHandler.class</exclude>
-                           <exclude>com/sm/accountstatement/entity/AccountStatement.class</exclude>
-                           <exclude>com/sm/accountstatement/controller/response/ErrorResponse.class</exclude>
-                     </excludes>
+                    <excludes>
+                        <exclude>com/sm/accountstatement/AccountStatementWsApplication.class</exclude>
+                        <exclude>com/sm/accountstatement/exception/GlobalExceptionHandler.class</exclude>
+                        <exclude>com/sm/accountstatement/entity/AccountStatement.class</exclude>
+                        <exclude>com/sm/accountstatement/controller/response/ErrorResponse.class</exclude>
+                    </excludes>
                     <!--   <includes>
                            <include>DataCheck.java</include>
                        </includes>-->

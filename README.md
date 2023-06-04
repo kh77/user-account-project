@@ -5,11 +5,19 @@
     - Spring boot 2.7.3
     - Maven 3+ : it should be installed before running script
     - Ms Access : Import database into MS ACCESS from this folder `database/accountsdb.accdb`
+	- Install zipkin & ELK 7.17.4
+	- Zipkin for tracing microservice -> Setup: docker run -d -p 9411:9411 openzipkin/zipkin
+	- I have ELK installed in my local but will share docker-compose later but ELK 8 have different settings
+	- Logstash will collect logs and emit to elastic search and visualize in the kibana
+			
+			
 
 ### Project Description
 - When you run frontend the login page will show the all username and password so you can use whatever you want
 - You can search only with admin credential 
 - You must import database because I bind user column in the statement table
+
+
 
 ### Configuration for database:
 
@@ -45,6 +53,28 @@
 
 ### **Run Jar in the below sequence**
 #### **Go to project folder of the specific project and & Run below command**
+
+- Run zipkin 
+
+- Elastic Search Server:
+		
+			http://localhost:9200/	
+			http://localhost:9200/_cat	
+			http://localhost:9200/_cat/indices
+			http://localhost:9200/_cat/indices/_search?q=*&format&pretty
+	
+			Add user-ws in the elastic search 	
+			Go to this -> stackmanagement/Dataviews/Index pattern  and Add Index pattern using timestamp
+			See the logs:
+			Go to this path: Anaylytics/Discovery  and see user-ws*
+			user-ws & different microservice project will be seen after running whole microservice application
+
+			
+- Running logstash use below command in the bin folder of the installed logstash and file is present in the root folder
+	- logstash -f simple-config.conf
+	
+- Run kibana
+	
 
 - eureka-server:
     - java -jar target\eureka-server-0.0.1-SNAPSHOT.jar
